@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="main.css">
+        <title>ストップウォッチ</title>
+      </head>
+ 
+      <body>
+        <h3>ストップウォッチ</h3>
+ 
+        <!-- ここに記述していきましょう！ -->
+        <form name="form_sw">
+            <div id="stop_watch" type="text">00m00s</div>
+            <div class="button">
+              <input name="start" type="button" value="スタート" onClick="start_count()">
+              <input name"stop" type="button" value="ストップ" onclick="stop_count()">
+              <input name="reset" type="button" value="リセット" onclick="reset_count()">
+            </div>
+        </form>
+        <script src="main.js"></script>
+      </body>
+    </html>
